@@ -1,5 +1,7 @@
 /*Body is set relative and add font family */
-
+body{
+    position: relative;
+}
 /*Add video as background*/
 #bgvideo {
 position: fixed;
@@ -38,7 +40,47 @@ background-color: rgba(29,167,179,0.5);
 }
 
 /*style about section*/
+.container{
+    max-width: 1000px;
+}
+#about{
+    margin-top: 150px;
+    color: blue;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about h2{
+    font-weight: bold;
+}
+#about p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.aboutImage{
+    height: 120px;
+}
 
-/*Carousel styling*/
+ 
 
-/*style navigation bar*/
+#promise {
+    padding-top: 100px;
+    padding-bottom: 300px; 
+    
+}
+
+#carouselExampleCaptions {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carousel-item img{
+    height: 400px;
+    margin: 0 auto;
+    
+}
+
+.footer {
+    background-color: rgba(29,167,179,0.1);
+}
