@@ -1,0 +1,44 @@
+/*Body is set relative and add font family */
+
+/*Add video as background*/
+#bgvideo {
+position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+
+/*style home section*/
+#home{
+    background-color: transparent;
+    color: blue;
+    text-align: center;
+    padding-top: 15%;
+}
+#home h1{
+    margin-bottom: 30px;
+}
+#home h2{
+    margin-bottom: 50px;
+}
+#home .btn{
+background-color: rgb(29,167,179);
+    color: blue;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+#home .btn:hover{
+background-color: rgba(29,167,179,0.5);
+    color: blue;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+/*style about section*/
+
+/*Carousel styling*/
+
+/*style navigation bar*/
